@@ -12,5 +12,5 @@ export class ProductsService {
   
     getProducts(): Observable<Root2> {
       return this._http.get<Root2>('https://api.escuelajs.co/api/v1/products');
-    }
+    }  
  }
